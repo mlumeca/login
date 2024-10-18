@@ -38,5 +38,8 @@ export class LoginComponent {
     event.stopPropagation();
   }
 
-  // console.log(email, password);
+  login() {
+    console.log(this.email)
+    console.log(this.password)
+    }
 }
